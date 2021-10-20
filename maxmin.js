@@ -1,15 +1,9 @@
-
 function max(a,b){
     if(a>b) {
-        console.log(a)
+        return a
     }
-
     else{
-        console.log(b)
+        return b
     }
-
-
-
 }
-
-max ( 15, 8 )
+console.log(max ( 15, 8 ))

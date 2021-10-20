@@ -1,5 +1,4 @@
-function type(test){
-    return  typeof test==="string";
+function type(text){
+    return  typeof text==="string";
 }
-let test=type(10);
-console.log(test)
+console.log(type(10))
